@@ -3,8 +3,15 @@ import time
 def ecrire(texte, vitesse=0.5):
     for lettre in texte:
         print(lettre, end='', flush=True)
-        time.sleep(vitesse)
+        time.sleep(vitesse) 
     print()
+    
+sentances = []
+    
+for i in range(sentances.lenght()):
+    print(sentances[i])
+    time.sleep(1)
+    i += 1
 
 print("The smell of oil prevails throughout.")
 time.sleep(1)
